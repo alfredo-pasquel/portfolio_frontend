@@ -1,6 +1,6 @@
 // src/pages/Home.jsx
 import React from 'react';
-import { Container, Typography, Grid, Box } from '@mui/material';
+import { Container, Typography, Grid, Box, Button } from '@mui/material'; // Added Button
 import profileImage from '../assets/AP01.png';
 
 function Home() {
@@ -14,17 +14,17 @@ function Home() {
         sx={{ marginTop: '50px' }}
       >
         <Grid item>
-        <Box
+          <Box
             component="img"
             src={profileImage}
             alt="Alfredo Pasquel"
             sx={{
-            width: 150,
-            height: 150,
-            borderRadius: '50%',
-            objectFit: 'cover',
+              width: 150,
+              height: 150,
+              borderRadius: '50%',
+              objectFit: 'cover',
             }}
-        />
+          />
         </Grid>
         <Grid item>
           <Typography variant="h3" align="center">
@@ -44,6 +44,16 @@ function Home() {
             and a strong work ethic, and I’m eager to bring my talents to a team that shares these
             values.
           </Typography>
+        </Grid>
+        {/* Added Contact Button */}
+        <Grid item>
+          <Button
+            variant="contained"
+            color="primary"
+            href="mailto:info@alfredopasquel.com"
+          >
+            Contact
+          </Button>
         </Grid>
       </Grid>
     </Container>
