@@ -31,14 +31,43 @@ function SoftwareEngineeringPortfolio() {
 
   useEffect(() => {
     const apiUrl = import.meta.env.VITE_API_URL.replace(/\/+$/, '');
+
+    // Fetch both software and audio projects
+    const fetchSoftwareProjects = axios.get(`${apiUrl}/api/software-projects`);
+    const fetchAudioProjects = axios.get(`${apiUrl}/api/audio-projects`);
+
     axios
-      .get(`${apiUrl}/api/software-projects`)
-      .then((response) => {
-        console.log('API Response:', response.data);
-        setProjects(response.data);
-      })
+      .all([fetchSoftwareProjects, fetchAudioProjects])
+      .then(
+        axios.spread((softwareResponse, audioResponse) => {
+          let softwareProjects = softwareResponse.data;
+          const audioProjects = audioResponse.data;
+
+          // Find the "Alfredo Pasquel Music" project in audio projects
+          const apMusicProject = audioProjects.find(
+            (project) => project.title === 'Alfredo Pasquel Music'
+          );
+
+          if (apMusicProject) {
+            // Insert "Alfredo Pasquel Music" after "Needle Drop"
+            const index = softwareProjects.findIndex(
+              (project) => project.title === 'Needle Drop'
+            );
+
+            if (index !== -1) {
+              // Insert after "Needle Drop"
+              softwareProjects.splice(index + 1, 0, apMusicProject);
+            } else {
+              // If "Needle Drop" is not found, add to the end
+              softwareProjects.push(apMusicProject);
+            }
+          }
+
+          setProjects(softwareProjects);
+        })
+      )
       .catch((error) => {
-        console.error('Error fetching software projects:', error);
+        console.error('Error fetching projects:', error);
         setProjects([]);
       });
   }, []);
