@@ -78,7 +78,7 @@ function SoftwareEngineeringPortfolio() {
         Software Engineering Portfolio
       </Typography>
       <Typography variant="body1" color="textSecondary" sx={{ marginTop: '10px' }}>
-        Having recently graduated from an intensive coding bootcamp specializing in JavaScript with React and Python with Flask, I have built a strong foundation in modern programming languages and frameworks. My technical expertise also includes SQL, SQLAlchemy, JSON, HTML, CSS, and other essential technologies that equip me to develop robust and dynamic applications. With a lifelong tech mindset and an engineering approach to problem-solving, I bring a unique perspective shaped by my background in high-level music technology and engineering. During my years working alongside Hans Zimmer and others, I gained hands-on experience with command line interfaces, embedded systems, computer architecture and design, basic scripting, and various development tools. This blend of experiences allows me to approach software engineering challenges with creativity and precision, and I am excited to contribute my skills as a software engineer.
+      I’m a software engineer with a passion for building dynamic, creative applications. Having completed a bootcamp specializing in JavaScript, React, Python, and Flask, I’ve gained strong technical skills in SQL, JSON, and modern web development. My background in music technology has given me experience with command line interfaces, scripting, and computer architecture, allowing me to approach software challenges with creativity and precision. I’m excited to bring my skills and unique perspective to innovative teams.
       </Typography>
       <Typography variant="h6" color="textPrimary" sx={{ marginTop: '20px' }}>
         Projects:
