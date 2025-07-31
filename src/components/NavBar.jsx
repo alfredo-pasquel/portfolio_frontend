@@ -18,11 +18,11 @@ function NavBar() {
         </Typography>
 
         {/* Navigation buttons */}
-        <Button color="inherit" component={Link} to="/software-engineering">
-          Software
-        </Button>
         <Button color="inherit" component={Link} to="/audio-engineering">
           Audio
+        </Button>
+        <Button color="inherit" component={Link} to="/software-engineering">
+          Software
         </Button>
 
         {/* LinkedIn button */}

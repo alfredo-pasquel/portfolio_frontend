@@ -1,7 +1,7 @@
 // src/pages/Home.jsx
 import React from 'react';
 import { Container, Typography, Grid, Box, Button } from '@mui/material'; // Added Button
-import profileImage from '../assets/AP06.jpg';
+import profileImage from '../assets/AP07.jpg';
 
 function Home() {
   return (
