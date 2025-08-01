@@ -78,7 +78,7 @@ function SoftwareEngineeringPortfolio() {
         Software Engineering Portfolio
       </Typography>
       <Typography variant="body1" color="textSecondary" sx={{ marginTop: '10px' }}>
-      I’m a software engineer with a passion for building dynamic, creative applications. Having completed a bootcamp specializing in JavaScript, React, Python, and Flask, I’ve gained strong technical skills in SQL, JSON, and modern web development. My background in music technology has given me experience with command line interfaces, scripting, and computer architecture, allowing me to approach software challenges with creativity and precision. I’m excited to bring my skills and unique perspective to innovative teams.
+      I’m a software engineer with a passion for building dynamic, creative applications. I specialize in JavaScript, React, Python, Flask and other development tools. I’ve gained strong technical skills in SQL, JSON, and modern web design and implementation. My background in music technology has given me experience with CLI, scripting, and computer architecture, allowing me to approach software challenges with creativity and precision.
       </Typography>
       <Typography variant="h6" color="textPrimary" sx={{ marginTop: '20px' }}>
         Projects:

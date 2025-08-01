@@ -43,7 +43,7 @@ function AudioEngineeringPortfolio() {
         Audio Engineering Portfolio
       </Typography>
       <Typography variant="body1" color="textSecondary" sx={{ marginTop: '10px' }}>
-      With 15+ years in audio engineering, I’ve contributed to Oscar-winning scores, Grammy-winning collaborations, and high-profile projects alongside Hans Zimmer and Jacob Collier. I specialize in recording, mixing, and editing for film and broadcast and have built state-of-the-art Hollywood studios. My expertise spans both technical and creative aspects of audio production, and as a freelancer, I bring a commitment to excellence to every project.
+      With over a decade of experience in the studio, I’ve contributed to Oscar-winning scores, Grammy-winning collaborations, and high-profile projects alongside Hans Zimmer and Jacob Collier. I specialize in recording, mixing, and editing for film and broadcast and have built state-of-the-art Hollywood studios. My expertise spans both technical and creative aspects of audio production, and as a freelancer, I bring a commitment to excellence to every project.
       </Typography>
       <Typography variant="h6" color="textPrimary" sx={{ marginTop: '20px' }}>
         Projects:

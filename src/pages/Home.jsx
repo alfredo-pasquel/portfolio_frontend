@@ -11,7 +11,10 @@ function Home() {
         direction="column"
         alignItems="center"
         spacing={4}
-        sx={{ marginTop: '50px' }}
+        sx={{ 
+          marginTop: '10px',
+          marginBottom: '0px'
+        }}
       >
         <Grid item>
           <Box
@@ -26,21 +29,60 @@ function Home() {
             }}
           />
         </Grid>
+
         <Grid item>
-          <Typography variant="h3" align="center">
+          <Typography
+            variant="subtitle1" 
+            align="center"
+            sx={{
+              fontSize: 25,
+              marginTop: '0px',
+              marginBottom: '10px'
+             }}>
             Alfredo Pasquel
           </Typography>
-        </Grid>
-        <Grid item>
-          <Typography variant="body1" align="center">
-            Welcome to my portfolio. I’m Alfredo Pasquel, an experienced audio and software engineer with a deep passion
-            for innovation. My background includes designing, building, and maintaining complex
-            systems, with a unique focus on multimedia creation. I’ve worked on music production for
-            Hollywood films and led engineering at a cutting-edge studio in LA, which has given me
-            specialized expertise in both linear and non-linear media. Recently, I’ve further honed
-            my skills through a rigorous software engineering bootcamp. My goal is to push the
-            boundaries of technology, creating applications that redefine what’s possible.
+
+          <Typography 
+            variant="subtitle1" 
+            align="center"
+            sx={{ 
+              marginTop: '0px',
+              marginBottom: '10px'
+             }}
+            >
+            Hi, I’m Alfredo Pasquel — a post-production mixer with over a decade of experience in high-end film and television scoring. I’ve mixed music for major Hollywood productions, including Grammy and Emmy-winning projects, as well as contributed to Oscar winning films. I have worked at and led engineering at world-class studio facilities in Los Angeles. 
           </Typography>
+          <Typography 
+            variant="subtitle1" 
+            align="center"
+            sx={{ 
+              marginTop: '10px',
+              marginBottom: '10px'
+             }}
+            >
+            My specialty lies in crafting emotionally impactful, technically precise content across both linear and non-linear formats, from orchestral scores to immersive Dolby Atmos records. 
+          </Typography>  
+          <Typography 
+            variant="subtitle1" 
+            align="center"
+            sx={{ 
+              marginTop: '10px',
+              marginBottom: '10px'
+             }}
+            >
+            In addition to my work in post-production, I’ve recently completed a rigorous software engineering bootcamp to expand my technical capabilities. I now have the tools to engage with the technical side of modern media in new and meaningful ways — adding another dimension to my creative practice. 
+          </Typography>
+          <Typography 
+            variant="subtitle1" 
+            align="center"
+            sx={{ 
+              marginTop: '10px',
+              marginBottom: '10px'
+             }}
+            >
+            I own and operate my own company and am currently working on several large-scale projects. My mission is to elevate storytelling through sound — with the precision of an engineer and the instinct of a musician.
+          </Typography>
+
         </Grid>
         {/* Added Contact Button */}
         <Grid item>
